@@ -1,11 +1,14 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./Navbar.css"; // Import your custom CSS
 
 class Navbar extends React.Component {
   render() {
     return (
       <div>
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav className="navbar navbar-expand-lg custom-navbar">
+          {" "}
+          {/* Apply custom class */}
           <div className="container-fluid">
             <a className="navbar-brand" href="/">
               TheAuction

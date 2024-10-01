@@ -1,0 +1,25 @@
+/* Navbar.css */
+.custom-navbar {
+  background-color: #cc0000; /* Red color */
+  color: white; /* Text color */
+  height: 120px;
+  width: 95%;
+  margin: 10px auto; /* Center the navbar horizontally */
+  display: flex; /* Use flexbox */
+  align-items: center; /* Vertically center items in the navbar */
+  justify-content: space-between;
+  border-radius: 150px;
+}
+
+.custom-navbar .nav-link {
+  color: white; /* Make link color white */
+  font-size: 20px;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #ffcccc; /* Lighten link color on hover */
+}
+
+.custom-navbar .navbar-brand {
+  color: white; /* Make brand color white */
+}
