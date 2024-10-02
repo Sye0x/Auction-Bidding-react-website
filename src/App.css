@@ -1,3 +1,13 @@
+/* App.css */
+body,
+html {
+  background-color: black; /* Set the background color of the whole page to black */
+  color: white; /* Ensure text is white for readability */
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
 .App {
   text-align: center;
 }
@@ -14,7 +24,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: black; /* Changed header background to black */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +45,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#root {
+  min-height: 100vh; /* Ensure the root element takes the full viewport height */
+  display: flex;
+  flex-direction: column;
 }

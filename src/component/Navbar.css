@@ -1,25 +1,63 @@
-/* Navbar.css */
 .custom-navbar {
-  background-color: #cc0000; /* Red color */
-  color: white; /* Text color */
+  background-color: #010048;
+  color: white;
   height: 120px;
-  width: 95%;
-  margin: 10px auto; /* Center the navbar horizontally */
-  display: flex; /* Use flexbox */
-  align-items: center; /* Vertically center items in the navbar */
-  justify-content: space-between;
-  border-radius: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Space between the pages and header */
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  padding-inline: 50px;
 }
 
-.custom-navbar .nav-link {
-  color: white; /* Make link color white */
-  font-size: 20px;
+.custom-Header-Name {
+  text-decoration: none;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(
+    -50%
+  ); /* Center the header in the middle of the navbar */
 }
 
-.custom-navbar .nav-link:hover {
-  color: #ffcccc; /* Lighten link color on hover */
+.custom-Header-Name:hover {
+  color: darkturquoise;
 }
 
-.custom-navbar .navbar-brand {
-  color: white; /* Make brand color white */
+.Page-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 40px;
+}
+.Page-list li {
+  font-size: 24px;
+}
+
+.Page-list li:hover {
+  font-size: 25px;
+  color: darkturquoise;
+}
+
+.pages {
+  flex-grow: 1; /* Makes sure the pages are on the left */
+  justify-content: flex-start;
+  display: flex;
+}
+.login {
+  background-color: white;
+  border-color: white;
+  color: #0099cc;
+  font-weight: 700;
+  font-size: 26px;
+  height: 50px;
+  width: 100px;
+  border-radius: 40px;
+}
+.login:hover {
+  background-color: #0099cc;
+  border-color: #0099cc;
+  color: white;
 }
