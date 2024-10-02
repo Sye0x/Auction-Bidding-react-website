@@ -5,15 +5,15 @@
   display: flex;
   align-items: center;
   justify-content: space-between; /* Space between the pages and header */
-  border-bottom-left-radius: 50px;
-  border-bottom-right-radius: 50px;
+
   padding-inline: 50px;
 }
 
 .custom-Header-Name {
   text-decoration: none;
   color: white;
-  font-size: 40px;
+  font-size: 44px;
+  font-weight: 500;
   position: absolute;
   left: 50%;
   transform: translateX(
@@ -22,7 +22,7 @@
 }
 
 .custom-Header-Name:hover {
-  color: darkturquoise;
+  color: crimson;
 }
 
 .Page-list {
@@ -38,7 +38,7 @@
 
 .Page-list li:hover {
   font-size: 25px;
-  color: darkturquoise;
+  color: crimson;
 }
 
 .pages {
@@ -49,7 +49,7 @@
 .login {
   background-color: white;
   border-color: white;
-  color: #0099cc;
+  color: #010048;
   font-weight: 700;
   font-size: 26px;
   height: 50px;
@@ -57,7 +57,7 @@
   border-radius: 40px;
 }
 .login:hover {
-  background-color: #0099cc;
-  border-color: #0099cc;
+  background-color: crimson;
+  border-color: crimson;
   color: white;
 }
