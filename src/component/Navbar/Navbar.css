@@ -33,12 +33,19 @@
   gap: 40px;
 }
 .Page-list li {
-  font-size: 24px;
+  font-weight: 700;
+  font-size: 26px;
 }
 
 .Page-list li:hover {
-  font-size: 25px;
-  color: crimson;
+  background-color: crimson;
+  border-color: crimson;
+  color: white;
+  height: 50px;
+  width: 100px;
+  border-radius: 40px;
+  text-align: center;
+  padding-top: 10px;
 }
 
 .pages {
@@ -47,17 +54,20 @@
   display: flex;
 }
 .login {
-  background-color: white;
-  border-color: white;
-  color: #010048;
+  color: white;
   font-weight: 700;
   font-size: 26px;
-  height: 50px;
-  width: 100px;
-  border-radius: 40px;
+  background-color: transparent;
+  border-top: 0px;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
 }
 .login:hover {
   background-color: crimson;
   border-color: crimson;
   color: white;
+  height: 60px;
+  width: 110px;
+  border-radius: 40px;
 }

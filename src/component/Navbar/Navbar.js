@@ -8,11 +8,11 @@ class Navbar extends React.Component {
       <div>
         <nav className="custom-navbar">
           <div className="pages">
-            <ul className="Page-list">
-              <li>Home</li>
-              <li>Market</li>
-              <li>About</li>
-            </ul>
+            <div className="Page-list">
+              <button className="login">Home</button>
+              <button className="login">Market</button>
+              <button className="login">About</button>
+            </div>
           </div>
           <a href="index.js" className="custom-Header-Name">
             SnapAuction
