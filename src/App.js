@@ -4,13 +4,7 @@ import Content from "./component/Content/Content";
 import "./App.css";
 import Footer from "./component/Footer/Footer";
 function App() {
-  return (
-    <>
-      <Navbar />
-      <Content />
-      <Footer />
-    </>
-  );
+  return <></>;
 }
 
 export default App;
