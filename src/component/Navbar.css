@@ -1,0 +1,54 @@
+* {
+  font-family: myfont;
+}
+
+@font-face {
+  font-family: myfont;
+  src: url("../font/Bound.ttf");
+}
+.Main-Heading {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+}
+.Main-Heading h1 {
+  color: whitesmoke;
+  font-size: 5.5vh;
+}
+.Heiglight {
+  color: #fa9414;
+}
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigators {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  margin-left: 5vh;
+}
+.nav button {
+  background-color: transparent;
+  color: white;
+  border: 0px;
+  font-size: 4vh;
+  height: 7vh;
+  width: 150%;
+}
+.nav button:hover {
+  background-color: #fa9414;
+  border-radius: 4vh;
+  font-weight: 600;
+}
+.login-sign {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+  margin-right: 5vh;
+}
